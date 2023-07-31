@@ -1,6 +1,6 @@
 # Summary
 
-[Introduction](../README.md)
+[Introduction](./intro.md)
 
 - [Golden Path](./golden_path.md)
 - [Tags](./tags.md)
