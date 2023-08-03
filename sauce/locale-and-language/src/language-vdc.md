@@ -1,0 +1,8 @@
+# Language: Virtual Devices
+
+## Setting the Language
+TODO need appium 2.0 docs for all drivers.
+
+## Android
+
+## iOS
