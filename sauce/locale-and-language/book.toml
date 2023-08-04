@@ -14,3 +14,6 @@ no-section-label = false
 git-repository-url = "https://github.com/maxdobeck/books"
 git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/maxdobeck/books/tree/main/sauce/locale-and-language/{path}"
+
+
+[output.pdf]

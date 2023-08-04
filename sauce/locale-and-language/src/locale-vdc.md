@@ -1,4 +1,5 @@
 # Locale: Virtual Devices
+Locale is not necessarily GeoLocation 
 
 
 ## Android
