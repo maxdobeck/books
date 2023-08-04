@@ -6,5 +6,8 @@ https://docs.saucelabs.com/mobile-apps/live-testing/live-mobile-app-testing/#app
 Go to your app Settings. Choose the language from the dropdown.
 
 ## Android
+{{ #include shared/android-header.md }}
 
 ## iOS
+{{ #include shared/ios-header.md }}
+

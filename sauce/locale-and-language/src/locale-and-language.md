@@ -19,6 +19,6 @@ NOTE: your experience and options will vary greatly depending on your platform. 
 
 
 ## Further reading 
-XCUI (iOS) Driver documentation -> <https://appium.github.io/appium-xcuitest-driver/4.16/>
-
-UIAutomator2(Android) Driver Documentation -> <https://github.com/appium/appium-uiautomator2-driver#readme>
+>XCUI (iOS) Driver documentation -> <https://appium.github.io/appium-xcuitest-driver/4.16/>
+>
+>UIAutomator2(Android) Driver Documentation -> <https://github.com/appium/appium-uiautomator2-driver#readme>

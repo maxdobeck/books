@@ -2,10 +2,10 @@
 
 
 ## Android
+{{ #include shared/android-header.md }}
 
 ## iOS
-
-
+{{ #include shared/ios-header.md }}
 
 Execute Method `configureLocalization`
 
