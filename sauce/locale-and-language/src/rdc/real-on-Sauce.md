@@ -17,7 +17,8 @@ Its important to be aware of what the Appium server can and can't do. For exampl
 #### Android
 Contradictory to the iOS example Android can use Appium 2.0 to test Locale/Language. Consult the documentation <https://github.com/appium/appium-uiautomator2-driver#app-localization>. In this case the 
 
-## Android
+## Android UIAutomator 2 Driver Notes
+
 {{ #include ../shared/android-header.md}}
 
 You CAN test with Appium + Real Devices. But you can also rely on the Language dropdown found in the App Settings. 

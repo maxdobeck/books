@@ -2,7 +2,8 @@
 
 ## Setting the Language
 
-## Android
+## Android UIAutomator 2 Driver Notes
+
 {{ #include shared/android-header.md }}
 
 ## iOS

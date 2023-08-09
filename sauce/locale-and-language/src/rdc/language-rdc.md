@@ -5,7 +5,8 @@ Note: [dependent apps inherit](https://docs.saucelabs.com/dev/test-configuration
 https://docs.saucelabs.com/mobile-apps/live-testing/live-mobile-app-testing/#app-settings
 Go to your app Settings. Choose the language from the dropdown.
 
-## Android
+## Android UIAutomator 2 Driver Notes
+
 {{ #include ../shared/android-header.md }}
 
 ## iOS

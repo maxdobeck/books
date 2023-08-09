@@ -2,7 +2,8 @@
 Locale is not necessarily GeoLocation 
 
 
-## Android
+## Android UIAutomator 2 Driver Notes
+
 {{ #include shared/android-header.md }}
 
 ## iOS
