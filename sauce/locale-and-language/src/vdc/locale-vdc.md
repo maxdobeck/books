@@ -6,10 +6,7 @@ Locale is not necessarily GeoLocation
 
 {{ #include shared/android-header.md }}
 
-## iOS
+## iOS XCUI Driver Notes
 {{ #include shared/ios-header.md }}
 
-Execute Method `configureLocalization`
-
-<https://appium.github.io/appium-xcuitest-driver/4.16/execute-methods/#mobile-configurelocalization>
 
