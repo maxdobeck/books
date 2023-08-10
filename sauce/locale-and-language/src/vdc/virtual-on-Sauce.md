@@ -3,7 +3,9 @@
 
 Be aware of [your App's requirements](../intro/locale-and-language.md#app-requirements), you may be forced to use real devices. Or vice versa.
 
-Please note that many commands and capabilities are iOS SIMULATOR only. Or are for Android Emualtors only. These typically cannot work on Real Devices and will also sometimes require a full simulator/emulator reboot. Or they must be set at runtime, when the virtual device launches.  For example the Execute Method `configureLocalization`: <https://appium.github.io/appium-xcuitest-driver/4.33/execute-methods/#mobile-configurelocalization>
+Locale and Language are usually tied together. But proceed according to your chosen driver's documentation.
+
+Please note that many commands and capabilities are iOS SIMULATOR only. Or are for Android EMULATORS only. These typically cannot work on Real Devices and will also sometimes require a full simulator/emulator reboot. Or they must be set at runtime, when the virtual device launches.  For example the Execute Method `configureLocalization`: <https://appium.github.io/appium-xcuitest-driver/4.33/execute-methods/#mobile-configurelocalization>
 
 
 ### Appium
