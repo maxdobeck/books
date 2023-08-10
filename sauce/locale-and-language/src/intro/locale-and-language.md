@@ -1,5 +1,5 @@
 # Locale & Language Testing
-### Pre-Requisites
+### App Requirements
 Things you may need to know, or may be asked by Sauce Labs employees.
 1. How does you application determine geo-location? What third party packages and APIs are used?
 2. Are all third party packages up-to-date?

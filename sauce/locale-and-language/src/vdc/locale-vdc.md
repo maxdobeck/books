@@ -1,5 +1,5 @@
 # Locale: Virtual Devices
-Locale is not necessarily GeoLocation 
+Locale is not GeoLocation.
 
 
 ## Android UIAutomator 2 Driver Notes
