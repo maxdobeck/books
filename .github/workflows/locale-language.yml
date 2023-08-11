@@ -16,17 +16,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout 🛎
       - uses: actions/checkout@v3
+      - name: Checkout
         with: 
           fetch-depth: 0
-      
-      # - name: Install Rust
-      #   run: ci/install-rust.sh stable ${{ matrix.target }}
-      # - name: Build asset
-      #   run: ci/make-release-asset.sh ${{ matrix.os }} ${{ matrix.target }}
-      # - name: Build locale-and-language Book
-      #   run: cargo run -- build guide
       - name: Install latest mdbook
         run: |
           tag=$(curl 'https://api.github.com/repos/rust-lang/mdbook/releases/latest' | jq -r '.tag_name')
