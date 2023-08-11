@@ -1,4 +1,4 @@
-name: GH Pages Locale & Language Book
+name: Build Books
 
 on:
   push:
@@ -27,4 +27,14 @@ jobs:
       - name: Build the Book
         run: mdbook build sauce/locale-and-language
 
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v3
+          with: 
+            name: locale-and-language_PDF
+            path: /sauce/locale-and-language/book/pdf/*.pdf
+      - name: Upload HTML artifact
+        uses: actions/upload-artifact@v3
+          with: 
+            name: locale-and-language_HTML
+            path: /sauce/locale-and-language/book/html/*
 
