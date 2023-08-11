@@ -34,7 +34,7 @@ jobs:
           path: /sauce/locale-and-language/book/pdf/*.pdf
       - name: Upload HTML artifact
         uses: actions/upload-artifact@v3
-          with: 
-            name: locale-and-language_HTML
-            path: /sauce/locale-and-language/book/html/*
+        with: 
+          name: locale-and-language_HTML
+          path: /sauce/locale-and-language/book/html/*
 
