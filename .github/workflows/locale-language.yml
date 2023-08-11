@@ -27,6 +27,8 @@ jobs:
           mkdir mdbook
           curl -sSL $url | tar -xz --directory=./mdbook
           echo `pwd`/mdbook >> $GITHUB_PATH
+      - name: Install mdbook-pdf backend
+        run: cargo install mdbook-pdf
       - name: Build the Book
         run: mdbook build sauce/locale-and-language
 
