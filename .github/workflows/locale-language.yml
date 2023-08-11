@@ -28,6 +28,6 @@ jobs:
           curl -sSL $url | tar -xz --directory=./mdbook
           echo `pwd`/mdbook >> $GITHUB_PATH
       - name: Build the Book
-      - run: mdbook build sauce/locale-and-language
+        run: mdbook build sauce/locale-and-language
 
 
