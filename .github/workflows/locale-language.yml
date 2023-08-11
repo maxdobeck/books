@@ -34,7 +34,7 @@ jobs:
           mkdir mdbook
           curl -sSL $url | tar -xz --directory=./mdbook
           echo `pwd`/mdbook >> $GITHUB_PATH
-      - name build locale-and-language Book
+      - name: build locale-and-language Book
         run: mdbook build sauce/locale-and-language
 
 
