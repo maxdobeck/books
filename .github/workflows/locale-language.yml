@@ -17,9 +17,9 @@ jobs:
 
     steps:
       - name: Checkout 🛎
-        uses: actions/checkout@v3
-          with: 
-            fetch-depth: 0
+      - uses: actions/checkout@v3
+        with: 
+          fetch-depth: 0
       
       # - name: Install Rust
       #   run: ci/install-rust.sh stable ${{ matrix.target }}
