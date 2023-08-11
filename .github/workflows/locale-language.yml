@@ -12,11 +12,10 @@ on:
       - "docs/**"
 
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
       - name: Checkout
         with: 
           fetch-depth: 0
