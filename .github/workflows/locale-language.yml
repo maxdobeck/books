@@ -31,10 +31,10 @@ jobs:
         uses: actions/upload-artifact@v3
         with: 
           name: locale-and-language_PDF
-          path: /sauce/locale-and-language/book/pdf/*.pdf
+          path: /home/runner/work/books/books/sauce/locale-and-language/book/pdf/*.pdf
       - name: Upload HTML artifact
         uses: actions/upload-artifact@v3
         with: 
           name: locale-and-language_HTML
-          path: /sauce/locale-and-language/book/html/*
+          path: /home/runner/work/books/books/sauce/locale-and-language/book/html/*
 
