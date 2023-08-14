@@ -1,6 +1,0 @@
-[book]
-authors = ["Max Dobeck"]
-language = "en"
-multilingual = false
-src = "src"
-title = "time and space"

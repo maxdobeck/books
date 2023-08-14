@@ -3,7 +3,7 @@ authors = ["Max Dobeck"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Locale & Language"
+title = "Locale, Language, & Location"
 
 [output.html]
 default-theme = "light"
