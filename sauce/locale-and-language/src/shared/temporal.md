@@ -1,1 +1,0 @@
-# Tackling Temporal Issues
