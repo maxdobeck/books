@@ -25,16 +25,16 @@ jobs:
       - name: Install mdbook-pdf backend
         run: cargo install mdbook-pdf
       - name: Build the Book
-        run: mdbook build sauce/locale-and-language
+        run: mdbook build sauce/locale-language-location
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v3
         with: 
-          name: locale-and-language_PDF
-          path: /home/runner/work/books/books/sauce/locale-and-language/book/pdf/*.pdf
+          name: locale-language-location_PDF
+          path: /home/runner/work/books/books/sauce/locale-language-location/book/pdf/*.pdf
       - name: Upload HTML artifact
         uses: actions/upload-artifact@v3
         with: 
-          name: locale-and-language_HTML
-          path: /home/runner/work/books/books/sauce/locale-and-language/book/html/*
+          name: locale-language-location_HTML
+          path: /home/runner/work/books/books/sauce/locale-language-location/book/html/*
 
