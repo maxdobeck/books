@@ -1,14 +1,16 @@
 # Summary
 
 - [Locale, Language, & Location Testing](./intro/lll.md)
-- [Real Devices on Sauce Labs](./rdc/real-on-Sauce.md)
-    - [Locale: Real](./rdc/locale-real.md)
-    - [Language: Real](./rdc/language-real.md)
-    - [Location: Real](./rdc/location-real.md)
-        - [Tackling Temporal Issues](./shared/temporal.md)
-- [Virtual Devices on Sauce Labs](./vdc/virtual-on-Sauce.md)
-    - [Locale: Virtual Devices](./vdc/locale-virtual.md)
-    - [Language: Virtual Devices](./vdc/language-virtual.md)
-    - [Location: Virtual](./vdc/location-virtual.md)
-        - [Tackling Temporal Issues](./shared/temporal.md)
-- [Helpers](./shared/helpers.md)
+    - [Real Devices on Sauce Labs](./intro/real-on-Sauce.md)
+    - [Virtual Devices on Sauce Labs](./intro/virtual-on-Sauce.md)
+- [Locale]
+    - [Locale: Real](./locale/locale-real.md)
+    - [Locale: Virtual Devices](./locale/locale-virtual.md)
+- [Language]
+    - [Language: Real](./language/language-real.md)
+    - [Language: Virtual Devices](./language/language-virtual.md)
+- [Location]
+    - [Location: Real](./location/location-real.md)
+    - [Location: Virtual](./location/location-virtual.md)
+    - [Tackling Temporal Issues](./shared/temporal.md)
+- [Addendum: Helpers](./shared/helpers.md)
