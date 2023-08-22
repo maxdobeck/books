@@ -3,14 +3,14 @@
 - [Locale, Language, & Location Testing](./intro/lll.md)
     - [Real Devices on Sauce Labs](./intro/real-on-Sauce.md)
     - [Virtual Devices on Sauce Labs](./intro/virtual-on-Sauce.md)
-- [Locale]
+- [Locale](./locale/locale.md)
     - [Locale: Real](./locale/locale-real.md)
-    - [Locale: Virtual Devices](./locale/locale-virtual.md)
-- [Language]
+    - [Locale: Virtual](./locale/locale-virtual.md)
+- [Language](./language/language.md)
     - [Language: Real](./language/language-real.md)
-    - [Language: Virtual Devices](./language/language-virtual.md)
-- [Location]
-    - [Location: Real](./location/location-real.md)
+    - [Language: Virtual](./language/language-virtual.md)
+- [Location](./location/location.md)
+    - [Location: Real ](./location/location-real.md)
     - [Location: Virtual](./location/location-virtual.md)
     - [Tackling Temporal Issues](./shared/temporal.md)
 - [Addendum: Helpers](./shared/helpers.md)
