@@ -24,4 +24,12 @@ UnknownCommandError: Unknown mobile command "pressButton". Only shell,execEmuCon
     driver.execute_script('mobile:pressButton', {'name': 'home'})
 ```
 
-### Open Default Apps
+### iOS Pressing Buttons by Coordinates
+A [real world example](https://github.com/appium/appium/issues/7692#issuecomment-273212444), finding via Xpath is slow, finding the element then doing some math and tapping it is faster.
+
+```java
+// Note MobileBy replaced with AppiumBy
+WebElement el = driver.findElement(MobileBy.AccessiblityId("Continue"));
+Dimensions dim = el.getSize();
+Location loc = el.getLocation();
+driver.tap(loc.x + dim.width / 2, loc.y + dim.height / 2, 1000);```
