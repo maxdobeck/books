@@ -32,4 +32,9 @@ A [real world example](https://github.com/appium/appium/issues/7692#issuecomment
 WebElement el = driver.findElement(MobileBy.AccessiblityId("Continue"));
 Dimensions dim = el.getSize();
 Location loc = el.getLocation();
-driver.tap(loc.x + dim.width / 2, loc.y + dim.height / 2, 1000);```
+driver.tap(loc.x + dim.width / 2, loc.y + dim.height / 2, 1000);
+```
+
+### Android
+<https://github.com/appium/io.appium.settings>
+Change wifi, data, animation settings, etc. See README.
