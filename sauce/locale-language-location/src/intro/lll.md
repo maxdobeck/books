@@ -33,7 +33,7 @@ Setting the Language is fully supported on iOS & Android.
 
 Localizing your product is a common procedure in the software lifecycle. There's support, tools, and common workflows. Not much is unsupported here.
 
-## App Requirements
+# App Requirements
 Things you may need to know, or may be asked by Sauce Labs employees.
 1. How does you application determine geo-location? What third party packages and APIs are used?
 2. Are all third party packages up-to-date?
@@ -44,7 +44,7 @@ For example, you may need to test how an app or third party code behaves in a sp
 
 NOTE: your experience and options will vary greatly depending on your platform. If you test on Virtual Devices you'll have different tools compared to Real Devices. Likewise your options and expected behaviors could change when comparing iOS vs Android. 
 
-## What is being tested?
+# What is being tested?
 - Temporal behavior
 - Location(fine, geographically)
 - Location(broad, what country is user in?)
