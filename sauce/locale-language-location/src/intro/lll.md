@@ -5,25 +5,26 @@ You may need to test behaviors related to time & space. Someone flying from Toky
 
 Frustrating user experiences will drive users away. Quickly. Product Quality can't be sacrificed for speed of delivery but neither can speed slow down in the name of quality. Security patches must be applied, new features must be built, the world turns.
 
-### Execution
+## Execution
 Testing using a framework like XCUI test, Playwright, or Appium can be painful or impossible when APIs are not available. Especially in the mobile space where automating the Settings on various device models is a time sink all on its own. Simply asserting the region is correct or setting a timezone may take several attempts and require endless exception handling. 
 
 As a litmus test, there should be an API or method builtin to handle your use case. If you MUST automate individual setup steps then you need to discard the test and move lower on [the testing pyramid](https://martinfowler.com/articles/practical-test-pyramid.html).
 
-### Conclusion:Time
+## Conclusion
+### Time
 Do not test timezone or temporal behaviors with End to End tests. Or with tools like Playwright, Appium, or Selenium.
 Do test using Unit tests and integration tests at the API or backend layer. 
 Do mock the UI and views so that these can be quickly tested without worrying about the underlying Operating System.
 Do write short fast tests that can run dozens or hundreds of times a day.
 
-### Conclusion:Locale
+### Locale
 Do test Locale behaviors in an End-to-End style manner.
 
 Testing integrated systems is usually easy with any testing Framework. Like: asserting Third Party Ads are localized inside your App or Site.  This is achievable with mocking of IP locations using WireMock or Sauce Connect.
 
 Setting the Locale is fully supported on iOS & Android.
 
-### ConclusionLanguage
+### Language
 Do test accuracy of translations.
 Do test the UI/layout is not impacted by language changes.
 Do test that the language is correct for the region/user.
