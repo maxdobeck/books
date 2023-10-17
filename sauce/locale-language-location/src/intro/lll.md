@@ -6,7 +6,9 @@ You may need to test behaviors related to time & space. Someone flying from Toky
 Frustrating user experiences will drive users away. Quickly. Product Quality can't be sacrificed for speed of delivery but neither can speed slow down in the name of quality. Security patches must be applied, new features must be built, the world turns.
 
 ### Execution
+Testing using a framework like XCUI test, Playwright, or Appium can be painful or impossible when APIs are not available. Especially in the mobile space where automating the Settings on various device models is a time sink all on its own. Simply asserting the region is correct or setting a timezone may take several attempts and require endless exception handling. 
 
+As a litmus test, there should be an API or method builtin to handle your use case. If you MUST automate individual setup steps then you need to discard the test and move lower on [the testing pyramid](https://martinfowler.com/articles/practical-test-pyramid.html).
 
 ### Conclusion:Time
 Do not test timezone or temporal behaviors with End to End tests. Or with tools like Playwright, Appium, or Selenium.
