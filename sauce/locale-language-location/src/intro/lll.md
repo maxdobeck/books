@@ -20,7 +20,7 @@ As a litmus test, there should be an API or method builtin to handle your use ca
 ### Locale
 * Do test Locale behaviors in an End-to-End style manner.
 
-Testing integrated systems is usually easy with any testing Framework. Like: asserting Third Party Ads are localized inside your App or Site.  This is achievable with mocking of IP locations using WireMock or Sauce Connect.
+Testing integrated systems is usually easy with any testing Framework. Like: asserting Third Party Ads are localized inside your App or Site.  This is achievable with mocking of IP locations using WonderProxy and/or Sauce Connect.
 
 Setting the Locale is fully supported on iOS & Android.
 
