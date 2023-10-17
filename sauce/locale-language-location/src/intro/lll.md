@@ -1,28 +1,27 @@
 # Locale, Language, & Location Testing
 
-# Abstract
+## Abstract
 You may need to test behaviors related to time & space. Someone flying from Tokyo to Hawaii should have the same user experience as someone flying from London to Chicago. Their day or their job or their life should not be interrupted because the timestamp is wrong and their app cannot handle a transaction. 
 
 Frustrating user experiences will drive users away. Quickly. Product Quality can't be sacrificed for speed of delivery but neither can speed slow down in the name of quality. Security patches must be applied, new features must be built, the world turns.
 
-## Execution
+### Execution
 
 
-## Conclusion
-### Time
+### Conclusion:Time
 Do not test timezone or temporal behaviors with End to End tests. Or with tools like Playwright, Appium, or Selenium.
 Do test using Unit tests and integration tests at the API or backend layer. 
 Do mock the UI and views so that these can be quickly tested without worrying about the underlying Operating System.
 Do write short fast tests that can run dozens or hundreds of times a day.
 
-### Locale
+### Conclusion:Locale
 Do test Locale behaviors in an End-to-End style manner.
 
 Testing integrated systems is usually easy with any testing Framework. Like: asserting Third Party Ads are localized inside your App or Site.  This is achievable with mocking of IP locations using WireMock or Sauce Connect.
 
 Setting the Locale is fully supported on iOS & Android.
 
-### Language
+### ConclusionLanguage
 Do test accuracy of translations.
 Do test the UI/layout is not impacted by language changes.
 Do test that the language is correct for the region/user.
