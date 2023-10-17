@@ -12,24 +12,25 @@ As a litmus test, there should be an API or method builtin to handle your use ca
 
 ## Conclusion
 ### Time
-Do not test timezone or temporal behaviors with End to End tests. Or with tools like Playwright, Appium, or Selenium.
-Do test using Unit tests and integration tests at the API or backend layer. 
-Do mock the UI and views so that these can be quickly tested without worrying about the underlying Operating System.
-Do write short fast tests that can run dozens or hundreds of times a day.
+* Do not test timezone or temporal behaviors with End to End tests. Or with tools like Playwright, Appium, or Selenium.
+* Do test using Unit tests and integration tests at the API or backend layer. 
+* Do mock the UI and views so that these can be quickly tested without worrying about the underlying Operating System.
+* Do write short fast tests that can run dozens or hundreds of times a day.
 
 ### Locale
-Do test Locale behaviors in an End-to-End style manner.
+* Do test Locale behaviors in an End-to-End style manner.
 
 Testing integrated systems is usually easy with any testing Framework. Like: asserting Third Party Ads are localized inside your App or Site.  This is achievable with mocking of IP locations using WireMock or Sauce Connect.
 
 Setting the Locale is fully supported on iOS & Android.
 
 ### Language
-Do test accuracy of translations.
-Do test the UI/layout is not impacted by language changes.
-Do test that the language is correct for the region/user.
+* Do test accuracy of translations.
+* Do test the UI/layout is not impacted by language changes.
+* Do test that the language is correct for the region/user.
 
 Setting the Language is fully supported on iOS & Android.
+
 Localizing your product is a common procedure in the software lifecycle. There's support, tools, and common workflows. Not much is unsupported here.
 
 ## App Requirements
