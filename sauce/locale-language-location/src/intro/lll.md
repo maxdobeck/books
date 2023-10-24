@@ -12,7 +12,7 @@ As a litmus test, there should be an API or method builtin to handle your use ca
 
 ## Conclusion
 ### Time
-* Do not test timezone or temporal behaviors with End to End tests. Or with tools like Playwright, Appium, or Selenium.
+* Do not test timezone or temporal behaviors with End to End tests, or with tools like Playwright, Appium, or Selenium.
 * Do test using Unit tests and integration tests at the API or backend layer. 
 * Do mock the UI and views so that these can be quickly tested without worrying about the underlying Operating System.
 * Do write short fast tests that can run dozens or hundreds of times a day.
@@ -22,7 +22,7 @@ As a litmus test, there should be an API or method builtin to handle your use ca
 
 Testing integrated systems is usually easy with any testing Framework. Like: asserting Third Party Ads are localized inside your App or Site.  This is achievable with mocking of IP locations using WonderProxy and/or Sauce Connect.
 
-Setting the Locale is fully supported on iOS & Android.
+Setting the Locale is fully supported on iOS and Android.
 
 ### Language
 * Do test accuracy of translations.
